@@ -31,4 +31,30 @@ The reason for this test is that it doesn't use any custom parts. These are off 
  4. Heatshrink
  5. (Something to hold the servo and potentiometer)
  
+ #Tests
  
+# Case: Servo control move potentionmeter
+ ## Issue: there maybe no noise.
+## 1. Just move to the goal
+
+## 2. Move to the goal proportionally
+
+## 3. Move to the goal proporitionally and derivatively
+
+## 4. move to the goal full PID
+
+## 5. Tune the values
+ 
+# Case: Machine Learn a PID
+# Case: Machine Learn the Tuning of a PID
+
+# Case: new problme via Open AI GYm
+The OpenAI Gym has a pole balancing problem. This a classic control system. Thet nicely have them problem outlined. https://gym.openai.com/docs/#environments
+
+
+## 1. Apply a PID
+
+## 2. Apply machine learning
+
+
+## 3. Compare results
