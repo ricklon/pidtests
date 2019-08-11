@@ -12,7 +12,7 @@ A PID is a Proportional-Integral-Derivative Controler. Turns out its a feedback 
 
 How about the math part:
 * Proportional (P): If the system changes respond by change a similar amount. Big movements require similar large responses.
-* Integral (I): I normally think of the integral as how much work or a measure of work that needs to be done. Change "work" to displacement or area, and you have a standard way of thinking about the Integral. 
+* Integral (I): I usually think of the integral as how much work or a measure of work that needs to be done. Change "work" to displacement or area, and you have a standard way of thinking about the Integral. 
 * Derivative (D): Rate of change. Acceleration is an example of the rate of change.
 
 So in terms of goals, we want a control loop that measures the distance or error between where we are now and where we want to be. That feedback is used to pick a proportional value in the case of small change is small, and a large change is large. Further, we want to know the trend over time how much work has been done. That would be our integral. The last in the sequence is what's the rate of change or work that's been done. All of this so we can pick a new value that gets the potentiometer to the goal value.
@@ -33,13 +33,13 @@ The reason for this test is that it doesn't use any custom parts. These are off 
  
  #Tests
  
-# Case: Servo control move potentionmeter
- ## Issue: there maybe no noise.
+# Case: Servo control move potentiometer
+ ## Issue: there may be no noise.
 ## 1. Just move to the goal
 
 ## 2. Move to the goal proportionally
 
-## 3. Move to the goal proporitionally and derivatively
+## 3. Move to the goal proportionally and derivatively
 
 ## 4. move to the goal full PID
 
@@ -48,8 +48,8 @@ The reason for this test is that it doesn't use any custom parts. These are off 
 # Case: Machine Learn a PID
 # Case: Machine Learn the Tuning of a PID
 
-# Case: new problme via Open AI GYm
-The OpenAI Gym has a pole balancing problem. This a classic control system. Thet nicely have them problem outlined. https://gym.openai.com/docs/#environments
+# Case: new problem via Open AI GYm
+The OpenAI Gym has a pole balancing problem. This a classic control system. They nicely have them problem outlined. https://gym.openai.com/docs/#environments
 
 
 ## 1. Apply a PID
