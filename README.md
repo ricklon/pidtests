@@ -17,6 +17,18 @@ How about the math part:
 
 So in terms of goals, we want a control loop that measures the distance or error between where we are now and where we want to be. That feedback is used to pick a proportional value in the case of small change is small, and a large change is large. Further, we want to know the trend over time how much work has been done. That would be our integral. The last in the sequence is what's the rate of change or work that's been done. All of this so we can pick a new value that gets the potentiometer to the goal value.
 
+Another view (https://youtu.be/a-BOSpxYJ9M?t=1614):
+WHat to do about an error?
+
+* (P) the error
+
+ How much correction
+ 
+* (I) the history
+
+ bias over time
+ 
+* (D) where it is and wehere it wants to be. The anticpated short term future.
 
 # What about the concept of error? What's the deal?
 
